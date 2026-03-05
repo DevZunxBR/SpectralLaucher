@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "1479124766861430784",
+        "smallImageText": "SpectralLauncher",
+        "smallImageKey": "icon"
+    },
+    "rss": null,
+    "servers": [
+        {
+            "id": "SpectralLauncher-1.20.4",
+            "name": "Spectral Server",
+            "description": "Servidor principal do SpectralLauncher.",
+            "icon": "https://raw.githubusercontent.com/DevZunxBR/SpectralLaucher/main/app/assets/images/SealCircle.png",
+            "version": "1.0.0",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.20.4",
+            "discord": {
+                "shortId": "Spectral",
+                "largeImageText": "Spectral Server",
+                "largeImageKey": "icon"
+            },
+            "mainServer": true,
+            "autoconnect": false,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.20.4-49.0.31",
+                    "name": "Forge 1.20.4",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "0",
+                        "url": "https://files.minecraftforge.net"
+                    }
+                }
+            ]
+        }
+    ]
+}
